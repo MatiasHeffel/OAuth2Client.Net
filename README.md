@@ -63,7 +63,7 @@ Getting started in your own project
 
 
 
-* instantiate a V1OAuth2APIConnector
+* instantiate a VersionOneAPIConnector
 
   * Provide an OAuth2Client.IStorage instead of any username/password details
 
@@ -74,7 +74,7 @@ Getting started in your own project
     * if the refresh fails (e.g. the app entry has been suspended or deleted), the refresh will fail.
 
 
-* Use the V1OAuth2APIConnector where you would use a V1APIConnector
+* Use the VersionOneAPIConnector where you would use a V1APIConnector. See this [example](https://github.com/versionone/api-examples/blob/master/csharp/ApiDemo/ApiDemo/Program.cs) or the SDK.NET API's wiki [here](https://github.com/versionone/VersionOne.SDK.NET.APIClient/wiki/Getting-started)
 
 
 
